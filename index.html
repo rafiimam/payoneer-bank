@@ -18,8 +18,16 @@
             <br>
             <input type="password" class="form-control" placeholder="Password">
             <br>
-            <button class="btn btn-success">Enter</button>
+            <button class="btn btn-success" id="login">Enter</button>
         </div>
     </div>
+
+    <script>
+        const btn = document.getElementById("login");
+        btn.addEventListener("click", function(){
+            const loginArea = document.getElementById('area');
+            loginArea.style.display = "none";
+        })
+    </script>
 </body>
 </html>
