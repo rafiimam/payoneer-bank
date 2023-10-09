@@ -21,12 +21,49 @@
             <button class="btn btn-success" id="login">Enter</button>
         </div>
     </div>
+    <div id="transect">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="bnk orange">
+                    <h5>Deposit</h5>
+                    <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bnk pink">
+                    <h5>Withdraw</h5>
+                <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bnk blue">
+                    <h5>Balance</h5>
+                    <h2>$16</h2>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>my name is khan</h2>
+                    <button class="btn btn-success">Deposit</button>
+                </div>
+                <div class="col-md-6">
+                    <h2>my name is imam</h2>
+                    <button class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         const btn = document.getElementById("login");
         btn.addEventListener("click", function(){
             const loginArea = document.getElementById('area');
             loginArea.style.display = "none";
+            const transaction = document.getElementById('transect');
+            transaction.style.display = "block";
         })
     </script>
 </body>
