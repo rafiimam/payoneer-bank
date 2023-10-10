@@ -2,10 +2,11 @@ body{
     padding: 100px 100px;
 }
 
-#box{
+.box{
     margin-top: 100px;
     padding: 50px;
     box-shadow: 5px 5px 10px gray;
+    border-radius: 20px;
 }
 #transect{
     display: none;
@@ -28,3 +29,4 @@ body{
 .blue{
     background-color: rgb(22, 124, 124);
 }
+
